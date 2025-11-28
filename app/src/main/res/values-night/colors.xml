@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="window_background">#071A22</color>
+    <color name="startup_primary">#37FFD6</color>
+    <color name="startup_on_primary">#003733</color>
+    <color name="startup_surface">#0D2933</color>
+    <color name="startup_outline">#2F7F80</color>
+    <color name="startup_card_background">#123744</color>
+    <color name="startup_text_primary">#E7FFFB</color>
+    <color name="startup_text_secondary">#A9C6C4</color>
+    <color name="startup_power">#37FFD6</color>
+    <color name="startup_outage">#FF5F78</color>
+    <color name="schedule_text_primary">#E9FFFB</color>
+    <color name="schedule_text_secondary">#A9C6C4</color>
+    <color name="schedule_power">#37FFD6</color>
+    <color name="schedule_outage">#FF5F78</color>
+    <color name="schedule_gradient_start">#123844</color>
+    <color name="schedule_gradient_end">#0C2934</color>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Svitlo</string>
+    <string name="screen_title">Svitlo</string>
+    <string name="screen_subtitle">График отключений на сегодня и завтра</string>
+    <string name="refresh">Обновить</string>
+    <string name="language">Язык</string>
+    <string name="theme">Тема</string>
+    <string name="settings">Настройки</string>
+    <string name="settings_title">Настройки</string>
+    <string name="settings_language">Язык</string>
+    <string name="settings_correction_30_minutes">30-минутная корректировка</string>
+    <string name="settings_save">Сохранить</string>
+    <string name="settings_cancel">Отмена</string>
+    <string name="refresh_interval">Интервал обновления, минут</string>
+    <string name="refresh_interval_hint">Допустимый диапазон: 15–1440 минут.</string>
+    <string name="refresh_interval_error">Введите целое число от 15 до 1440.</string>
+    <string name="language_russian">Русский</string>
+    <string name="language_ukrainian">Українська</string>
+    <string name="today">Сегодня</string>
+    <string name="tomorrow">Завтра</string>
+    <string name="queue_label">Очередь</string>
+    <string name="schedule_available">График опубликован</string>
+    <string name="schedule_missing_title">Графика пока нет</string>
+    <string name="schedule_missing_body">Откройте приложение позже или обновите данные вручную.</string>
+    <string name="current_outage">Сейчас света нет</string>
+    <string name="current_power">Сейчас свет есть</string>
+    <string name="current_unknown">Состояние неизвестно</string>
+    <string name="outage_periods">Периоды отключения</string>
+    <string name="no_outages">Для этой очереди отключений не запланировано.</string>
+    <string name="outage_period">%1$s — %2$s</string>
+    <string name="duration_format">%1$dч %2$dм</string>
+    <string name="updated_at">Обновлено %1$s</string>
+    <string name="fetched_at">Проверено %1$s</string>
+    <string name="saved_schedule">Показаны сохранённые данные.</string>
+    <string name="refresh_error">Не удалось получить данные с ZOE. Показываем сохранённый график.</string>
+    <string name="source_label">Источник: ZOE</string>
+    <string name="notification_channel_name">Изменения графика</string>
+    <string name="notification_channel_description">Уведомления об изменении графика отключений</string>
+    <string name="notification_title">График обновлён</string>
+    <string name="notification_text">Проверь очередь %1$s — график мог измениться</string>
+</resources>

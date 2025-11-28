@@ -1,0 +1,8 @@
+HSPLcom/malanchuk/svitlo/SvitloApplication;->onCreate()V
+HSPLcom/malanchuk/svitlo/ui/MainActivity;->attachBaseContext(Landroid/content/Context;)V
+HSPLcom/malanchuk/svitlo/ui/MainActivity;->onCreate(Landroid/os/Bundle;)V
+HSPLcom/malanchuk/svitlo/ui/MainViewModel;-><init>(Landroid/app/Application;)V
+HSPLcom/malanchuk/svitlo/data/ScheduleStore;-><init>(Landroid/content/Context;)V
+HSPLcom/malanchuk/svitlo/data/ScheduleStore;->loadFast()Lcom/malanchuk/svitlo/model/ScheduleSnapshot;
+HSPLcom/malanchuk/svitlo/ui/ScheduleCardView;->onMeasure(II)V
+HSPLcom/malanchuk/svitlo/ui/ScheduleCardView;->onDraw(Landroid/graphics/Canvas;)V

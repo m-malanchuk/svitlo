@@ -1,0 +1,4 @@
+HSPLcom/malanchuk/svitlo/SvitloApplication;->onCreate()V
+HSPLcom/malanchuk/svitlo/ui/MainActivity;->onCreate(Landroid/os/Bundle;)V
+HSPLcom/malanchuk/svitlo/ui/MainViewModel;-><init>(Landroid/app/Application;)V
+HSPLcom/malanchuk/svitlo/data/ScheduleStore;->loadFast()Lcom/malanchuk/svitlo/model/ScheduleSnapshot;
