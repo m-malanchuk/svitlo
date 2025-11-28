@@ -1,10 +1,11 @@
 plugins {
     id("com.android.application")
+    id("org.jetbrains.kotlin.android")
 }
 
 android {
     namespace = "com.malanchuk.svitlo"
-    compileSdk = 37
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.malanchuk.svitlo"
@@ -33,12 +34,6 @@ android {
         targetCompatibility = JavaVersion.VERSION_17
     }
 
-    kotlin {
-        compilerOptions {
-            jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_17)
-        }
-    }
-
     buildFeatures.buildConfig = true
 
     sourceSets {
@@ -52,17 +47,23 @@ android {
     }
 }
 
+kotlin {
+    compilerOptions {
+        jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_17)
+    }
+}
+
 dependencies {
-    implementation("androidx.activity:activity-ktx:1.13.0")
-    implementation("androidx.appcompat:appcompat:1.8.0")
-    implementation("androidx.core:core-ktx:1.19.1")
-    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.11.0")
-    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.11.0")
+    implementation("androidx.activity:activity-ktx:1.12.0")
+    implementation("androidx.appcompat:appcompat:1.7.1")
+    implementation("androidx.core:core-ktx:1.17.0")
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.9.4")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.4")
     implementation("androidx.profileinstaller:profileinstaller:1.4.1")
     implementation("com.google.android.material:material:1.13.0")
 
-    implementation("androidx.work:work-runtime-ktx:2.12.0")
-    implementation("org.jsoup:jsoup:1.24.1")
+    implementation("androidx.work:work-runtime-ktx:2.10.5")
+    implementation("org.jsoup:jsoup:1.21.2")
 
     testImplementation("junit:junit:4.13.2")
 }
