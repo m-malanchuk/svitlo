@@ -2,15 +2,14 @@
 
 ## Scope
 
-The first release is a single native Android application. It has no account system and no application backend. The app fetches the public ZOE outage page directly, parses it locally, stores the normalized result on the device, and exposes the result in the main screen and a home-screen widget.
+The first release is a single native Android application. It has no account system and no application backend. The app fetches the public ZOE outage page directly, parses it locally, stores the normalized result on the device, and exposes the result on the main screen.
 
 ## Components
 
-- **Compose UI** — queue selection, today/tomorrow tabs, status card, 24-hour timeline, theme controls, language controls, and refresh settings.
+- **Android Views UI** — queue selection, today/tomorrow tabs, status card, 24-hour timeline, language controls, correction controls, and refresh settings.
 - **ZOE parser** — an isolated Jsoup-based parser for `article[id^=post-]` entries, Ukrainian dates, queue identifiers, update times, and exact outage intervals.
 - **Local store** — JSON in app-private `SharedPreferences`. The data set is small enough for the parsed archive page, and the store avoids a database migration surface in the first release.
 - **Refresh worker** — WorkManager with a connected-network constraint. The interval is user-configurable from 15 to 1440 minutes.
-- **Widget** — Jetpack Glance reads the same local store and renders a compact 24-hour bar.
 - **Notifications** — a notification is emitted when the selected queue's stored schedule changes and Android notification permission is available.
 
 ## Data model
